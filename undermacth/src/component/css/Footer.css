@@ -1,0 +1,15 @@
+/* Footer.css */
+
+.footer {
+  position: fixed; /* フッターを固定 */
+  bottom: 0; /* 画面の下端に配置 */
+  left: 0; /* 画面の左端に配置 */
+  width: 100%; /* 横幅100% */
+  background-color: #fff5eb; /* クリーム色の背景 */
+  padding: 10px 0; /* 上下の余白 */
+  text-align: center; /* テキストを中央に配置 */
+}
+
+.footer-content {
+  color: #000; /* 文字色 */
+}

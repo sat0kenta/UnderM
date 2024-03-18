@@ -1,0 +1,48 @@
+/* Header.css */
+
+.header {
+  position: fixed; /* ヘッダーを固定 */
+  top: 0; /* 画面の上端に配置 */
+  left: 0; /* 画面の左端に配置 */
+  width: 100%; /* 横幅100% */
+  background-color: #fff5eb; /* クリーム色の背景 */
+  padding: 10px 0; /* 上下の余白 */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%; /* 最大幅100% */
+  margin: 0 auto; /* 中央揃え */
+  padding: 0 20px; /* 左右の余白 */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+}
+
+.logo {
+  width: 50px; /* ロゴの幅 */
+  height: auto; /* ロゴの高さを自動調整 */
+}
+
+.button {
+  margin-left: 10px; /* ボタン間の余白 */
+  padding: 8px 16px; /* ボタン内の余白 */
+  background-color: #ffd54f; /* ボタンの背景色 */
+  border: none; /* ボーダーなし */
+  border-radius: 4px; /* 角丸 */
+  cursor: pointer; /* ポインターを変更 */
+  color: #000; /* 文字色 */
+  text-decoration: none; /* テキスト装飾を削除 */
+}
+
+.button:hover {
+  background-color: #ffc107; /* ホバー時の背景色 */
+}
